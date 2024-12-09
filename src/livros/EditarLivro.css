@@ -1,0 +1,64 @@
+.editar-livro-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #282a36;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  color: #f8f8f2;
+}
+
+.editar-livro-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #bd93f9;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid #6272a4;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.editar-livro-container div {
+  margin-bottom: 15px;
+}
+
+.editar-livro-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #50fa7b;
+}
+
+.editar-livro-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #6272a4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #44475a;
+  color: #f8f8f2;
+}
+
+.editar-livro-container input[type="text"]:focus {
+  border-color: #bd93f9;
+  outline: none;
+}
+
+.editar-livro-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #bd93f9;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.editar-livro-container button:hover {
+  background-color: #6272a4;
+}

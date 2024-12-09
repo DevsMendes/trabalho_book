@@ -1,0 +1,85 @@
+.cadastrar-livro-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #282a36;
+}
+
+.cadastrar-livro-container {
+  max-width: 600px;
+  width: 100%;
+  padding: 30px;
+  background-color: #44475a;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  font-family: "Arial", sans-serif;
+  color: #f8f8f2;
+}
+
+.cadastrar-livro-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f8f8f2;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid #ff79c6;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.cadastrar-livro-container div {
+  margin-bottom: 20px;
+}
+
+.cadastrar-livro-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #f8f8f2;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.cadastrar-livro-container input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #bd93f9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #44475a;
+  color: #f8f8f2;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.cadastrar-livro-container input[type="text"]:focus {
+  border-color: #50fa7b;
+  box-shadow: 0 0 5px rgba(80, 250, 123, 0.5);
+  outline: none;
+}
+
+.cadastrar-livro-container button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f8f8f2;
+  background: linear-gradient(90deg, #8be9fd, #ff79c6);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.cadastrar-livro-container button:hover {
+  transform: scale(1.03);
+  background: linear-gradient(90deg, #ff79c6, #ff5555);
+}
+
+.cadastrar-livro-container button:active {
+  transform: scale(0.98);
+}
